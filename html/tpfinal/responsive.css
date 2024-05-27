@@ -1,0 +1,116 @@
+/* Estilos generales */
+/* Por ejemplo, estilos para la barra de navegación y el contenido */
+.sidebar-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px; /* Ancho de la barra de navegación */
+    background-color: rgba(51, 51, 51, 0.7);
+    padding: 20px;
+    
+}
+
+.content {
+    margin-left: 220px; /* Espacio para la barra de navegación */
+    padding: 20px;
+    text-align: center; /* Alinear texto al centro */
+}
+
+.indice {
+    margin-top: 50px;/* Espacio para la barra de navegación */
+    padding: 20px;
+    text-align: left; /* Alinear texto al centro */
+    color: #c5dce0;
+    
+}
+.titulito
+{
+    margin-right: 35px;
+    text-align: center;
+}
+
+
+.color {
+    color: rgb(0, 192, 240);
+}
+
+
+.nombre
+{
+    margin-right: 70px;
+}
+
+.contactito
+{
+    margin-top: 100px;
+}
+
+
+.pie {
+    position:fixed;
+    margin-left: 850px; /* Espacio para la barra de navegación */
+    bottom :0;
+ 
+    text-align: center; /* Alinear texto al centro */
+}
+
+.servicios {
+    margin-left: 120px; /* Espacio para la barra de navegación */
+    padding: 20px;
+    text-align: justify; /* Alinear texto al centro */
+}
+
+/* Media query para tablet (768px de ancho) */
+@media screen and (max-width: 768px) {
+    .sidebar-nav {
+        width: 150px; /* Reducir el ancho de la barra de navegación */
+    }
+    .content {
+        margin-left: 170px; /* Ajustar el margen para la barra de navegación */
+    }
+}
+
+/* Media query para celular (576px de ancho) */
+@media screen and (max-width: 576px) {
+    .sidebar-nav {
+        width: 100px; /* Reducir aún más el ancho de la barra de navegación */
+        padding: 10px; /* Reducir el relleno para adaptarse a pantallas más pequeñas */
+    }
+    .content {
+        margin-left: 120px; /* Ajustar el margen para la barra de navegación */
+    }
+}
+
+/*fondo de pantalla*/
+body {
+    background-image: url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: fixed; /* Cubrir todo el área del cuerpo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+}
+
+
+.container {
+    display: flex; /* Utilizar Flexbox para el contenedor */
+    justify-content: space-around; /* Distribuir el espacio entre las columnas */
+}
+
+.column {
+    flex: 1; /* Hacer que las columnas se expandan para ocupar el espacio disponible */
+    padding: 20px;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    background-image: url('https://images.pexels.com/photos/994605/pexels-photo-994605.jpeg'); /* Ruta de la imagen de fondo */
+    background-size: fixed; /* Cubrir todo el área del cuerpo */
+    background-position: center; /* Centrar la imagen */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    
+}
+
+
+
+
