@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto -  Tours playita</title>
+    <link rel="stylesheet" href="responsive.css"> <!-- Estilos responsivos -->
+    <script src="validation.js"></script> <!-- Enlazar tu archivo JavaScript -->
+</head>
+<body>
+   
+    <nav class="sidebar-nav">
+        <header class="titulito">
+            <!-- Encabezado -->
+            <div class="tamaño"> <h1 class="color">Tours playita</h1></div>
+        </header>
+        <!-- Barra de navegación -->
+        <ul class="indice">
+            <li><a class="color" href="index.html"><h1>Inicio</h1></a></li>
+            <li ><a class="color" href="services.html"><h1>Servicios</h1></a></li>
+            <li ><a class="color" href="about.html"><h1>Acerca de</h1></a></li>
+            <li ><a class="color" href="contact.html"><h1>Contacto</h1></a></li>
+        </ul>
+    </nav>
+    <main class="content3">
+        <!--Contenido de la página de contacto -->
+        <section id="contacto">
+            <div class="tamaño"><h1>Contacto</h1></div>
+            <button id="playButton" class="btn">Reproducir música</button> <!--Boton de musica -->
+            <form id="contactForm" class="contactito">
+                  <!--Nombre de quien consulta-->
+                  <div class="contenedor"
+                  ><div class="column4"><label class="nombre" for="name"><h2>Nombre:</h2></label></div>
+                  <input type="text" id="name" name="name" required > 
+                  </div>      
+            
+                        
+               
+                
+                <br></br>
+                  <!--Email-->
+                  <div class="contenedor">
+                    <div class="column4"><label for="email"><h2>Email:</h2></label></div>
+                        <input type="email" id="email" name="email" required> 
+                  </div>
+                  
+      
+                <br></br>
+                <br></br>
+                  <!--Mensaje a enviar-->
+                  <div class="contenedor">
+                    <div class="column4">  
+                        <label class="nombre"for="message"><h2>Mensaje: &nbsp</h2></label>
+                      </div>
+                      <textarea id="message" name="message" required></textarea>
+                  </div>
+
+                <br></br>
+  <!--Selector-->
+  <div class="contenedor">
+
+    <div class="column3">
+      <label for="subject"><h2>Asunto:</h2></label>
+      <select id="subject" name="subject">
+         
+              <option value="consulta">Consulta</option>
+              <option value="comentario">Comentario</option>
+              <option value="sugerencia">Sugerencia</option>
+      </select>
+  </div>
+ 
+  </div>
+           
+                <br></br>
+                <br></br>
+                <!--Parte final del checkbox-->
+                <div class="column1" >
+                <label>Elija un tema de interés:</label>
+                <input type="checkbox" id="topic1" name="topic" value="topic1">
+                <label for="topic1">Servicio turistico</label>
+                <input type="checkbox" id="topic2" name="topic" value="topic2">
+                <label for="topic2">Problemas y/o quejas</label>
+                </div>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <div id="player"></div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <footer class="pie">
+        <p>&copy; 2024 Tours playita. Todos los derechos reservados.</p>
+    </footer>
+    <script src="validation.js"></script> 
+</body>
+</html>
